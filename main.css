@@ -1,0 +1,37 @@
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    background-color: #f0f0f0;
+    position: relative;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.miniWrap {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.miniImg {
+    width: 100%;
+}
+
+.fullWrap {
+    position: relative;
+    margin: 100px auto;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+}
+
